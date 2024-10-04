@@ -34,9 +34,9 @@ echo "luas lingkaran dari radius 7 adalah $hasil <br>";
 // NO.6
 $alas = 8;
 $tinggi = 10;
-$hasil = ($alas * $tinggi) / 2;
+$hasil1 = ($alas * $tinggi) / 2;
 
-echo "Tinggi segitiga adalah $hasil <br>";
+echo "Tinggi segitiga adalah $hasil1 <br>";
 
 // NO. 7
 $tanggalLahir = 1994;
