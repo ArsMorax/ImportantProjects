@@ -6,7 +6,7 @@ if (isset($_POST['nama']) && isset($_POST['nis']) && isset($_POST['kelas']) && i
     $jurusan = htmlspecialchars($_POST['jurusan']);
 
     if (strlen($user) < 1 || strlen($nis) < 1 || strlen($kelas) < 1 || strlen($jurusan) < 1) {
-        echo "Please fill in the required fields";
+        echo "Please fill in the required field";
     } else {
         echo "Username : " . $user . "<br>";
         echo "NIS : " . $nis . "<br>";

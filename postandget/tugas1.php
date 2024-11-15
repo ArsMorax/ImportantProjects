@@ -18,7 +18,7 @@ if (isset($_POST['nama']) && isset($_POST['password']) && isset($_POST['user']))
     }
 
     if (empty($nama) || empty($password) || empty($user)) {
-        echo "Salah satu field atau fields terdeteksi ada yang tidak ada di isi." . "<br>";
+        echo "Salah satu field terdeteksi ada yang tidak ada di isi." . "<br>";
         echo "<a href='tugas1.html'>Kembali isi field</a>";
     } else {
         echo "Nama: " . $nama . "<br>";

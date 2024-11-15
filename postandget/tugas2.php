@@ -10,7 +10,7 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
         echo "Login successful, please kindly kill yourself now." . "<br>";
         echo "<a href='tugas3.html'>Lanjut ke form berikutnya!</a>";
     } else {
-        echo "NIGGA GET OUT!!!! GET THE FUCK OUT!!!!!!!";
+        echo "NIGGA GET OUT!!!! GET THE FUCK OUT!!!!!!";
     }
 } else {
     echo "Data tidak ditemukan";
