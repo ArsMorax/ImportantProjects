@@ -67,11 +67,40 @@ $hasilbilangan = $bilangan1 % $bilangan2;
 
 echo "Sisa pembagian $bilangan1 dan $bilangan2 adalah $hasilbilangan <br>";
 
-// this was unnecessary
-$nama = "Syaeful";
-$umur = 21;
-$alamat = "Gang Keramik";
+// NO. 11
+for ($i = 1; $i <= 5; $i++) {
+    for ($j = 1; $j <= $i; $j++) {
+        echo "*";
+    }
+    echo "\n";
+}
 
-echo "Nama : $nama <br>";
-echo "Umur : $umur <br>";
-echo "Alamat : $alamat <br>";
+// NO. 12
+$angka = 5;
+$faktorial = 1;
+
+for ($i = $angka; $i > 0; $i--) {
+    echo "faktorial dari $faktorial adalah $faktorial *= $i;";
+}
+
+echo $faktorial;
+
+// NO. 13
+$angka = 1;
+
+while ($angka <= 20) {
+    echo "$angka \n";
+    $angka += 2;
+}
+
+// NO. 14
+for ($i = 1; $i <= 10; $i++) {
+    echo "$i kuadrat: ($i * $i)";
+}
+
+// NO. 15
+for ($i = 1; $i <= 100; $i++) {
+    if ($i % 4 == 0 && $i % 6 == 0) {
+        echo "$i \n";
+    }
+}
