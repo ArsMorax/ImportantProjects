@@ -14,5 +14,5 @@ if (isset($_POST['nama']) && isset($_POST['nis']) && isset($_POST['kelas']) && i
         echo "Jurusan : " . $jurusan . "<br>";
     }
 } else {
-    echo "Data apalah itu";
+    echo "Data tidak ditemukan";
 }

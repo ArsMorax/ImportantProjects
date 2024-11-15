@@ -13,5 +13,5 @@ if (isset($_POST['password']) && isset($_POST['username'])) {
         echo "NIGGA GET OUT!!!! GET THE FUCK OUT!!!!!!!";
     }
 } else {
-    echo "Data apalah itu";
+    echo "Data tidak ditemukan";
 }
